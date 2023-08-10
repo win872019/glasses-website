@@ -1,0 +1,68 @@
+header {
+  
+  nav {
+    background-color: #AA0601;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+        
+    
+    img {
+      width: 80px;
+      margin: 16px auto;
+      
+    }
+    ul {
+      margin: 16px auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 64px;
+      
+      
+      li {
+        font-size: 20px;
+        a {
+          text-decoration: none;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+  .backImage {
+    background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/home-header.png");
+    background-size: cover;
+    min-height: 90vh;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    .topic {
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      margin-right: 15%;
+    }
+    h1,
+    p {
+      color: #650300;
+      margin-bottom: 15px;
+    }
+    h1 {
+      font-size: 36px;
+    }
+    p {
+      font-size: 64px;
+      font-weight: bold;
+    }
+    a {
+      background-color: #aa0601;
+      padding: 0.75rem 1.5rem;
+      font-size: 20px;
+      color: #ffffff;
+      text-decoration: none;
+      text-align: center;
+    }
+  }
+}
